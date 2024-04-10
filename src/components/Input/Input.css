@@ -1,0 +1,32 @@
+.input {
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 400px;
+  padding-left: 8px;
+  color: rgb(38, 6, 6);
+  font-weight: 400;
+}
+
+.input:focus {
+  border: 2px solid rgb(35, 200, 255);
+}
+
+.input::placeholder {
+  color: lightgray;
+}
+
+.sm {
+  font-size: 12px;
+  height: 20px;
+}
+
+.md {
+  font-size: 15px;
+  height: 25px;
+}
+
+.lg {
+  font-size: 18px;
+  height: 30px;
+}
