@@ -9,6 +9,10 @@ const config = {
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
     "@storybook/addon-docs",
+    "@storybook/addon-actions",
+    "@storybook/addon-console",
+    "@storybook/addon-a11y",
+    "@storybook/addon-viewport",
   ],
   framework: {
     name: "@storybook/react-webpack5",
