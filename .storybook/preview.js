@@ -1,6 +1,8 @@
 import React from "react";
 // import { addDecorator } from "@storybook/react";
-import Center from "../src/decorators/Center/Center";
+// import Center from "../src/decorators/Center/Center";
+import { ChakraBaseProvider, theme } from "@chakra-ui/react";
+
 export const parameters = {
   backgrounds: {
     default: "white",
@@ -18,4 +20,6 @@ export default {
   },
 };
 
-export const decorators = [(story) => <Center>{story()}</Center>];
+export const decorators = [
+  (story) => <ChakraBaseProvider theme={theme}>{story()}</ChakraBaseProvider>,
+];
